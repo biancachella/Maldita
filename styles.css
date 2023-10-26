@@ -1,16 +1,33 @@
 body {
-    background-color: black;
+    background: black;
     height: 100vh;
     width: 100vw;
 }
 
 @font-face {
-    font-family: myFont;
-    src: url(/fonts/Intradistaff_font.ttf);
+    font-family: Intradistaff;
+    src: url('/fonts/Intradistaff_font.ttf');
 }
-h1 {
-    font-family: myFont;
-    font-size:50vh;
+
+@font-face {
+    font-family: Wolfsfifth;
+    src: url('/fonts/Wolfsfifth.ttf');
+}
+
+.font1 {
+    font-family: Intradistaff;
+    font-size: 30em;
     font-weight: 1;
-    color: pink;
+    color: magenta;
+    text-align: center;
+    margin: 0;
+}
+
+.font2 {
+    font-family: Wolfsfifth;
+    font-size: 30em;
+    font-weight: 1;
+    color: magenta;
+    text-align: center;
+    margin: 0;
 }
