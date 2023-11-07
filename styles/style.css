@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+/*Fonts*/
+
+@font-face {
+  font-family: Intradistaff;
+  src: url('/fonts/Intradistaff_font.ttf');
+}
+
+@font-face {
+  font-family: Wolfsfifth;
+  src: url('/fonts/Wolfsfifth.ttf');
+}
+
+body {
+  background: black;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+section {
+  width: 100vw;
+  height: 95vh;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: 1px solid red;
+}
+
+.entry {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.malditapic {
+  width: auto;
+  height: 50%;
+  border-radius: 100%;
+}
+
+.malditatxt {
+  font-family: Intradistaff;
+  font-size: 15rem;
+  font-weight: lighter;
+  color: magenta;
+  text-align: center;
+  letter-spacing: 15px;
+}
+
+/*Media Queries*/
+
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+
+  .malditapic {
+    width:auto;
+    height: 50%;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+  .malditapic {
+    width: auto;
+    height: 50%;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
