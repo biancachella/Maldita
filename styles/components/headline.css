@@ -1,0 +1,23 @@
+.headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .malditaimg_headline {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+  }
+  
+  .malditafont_headline {
+    font-family: Intradistaff;
+    font-size: var(--size-10xl);
+    font-weight: lighter;
+    color: #c026d3;
+    text-align: center;
+    letter-spacing: 15px;
+  }
