@@ -1,4 +1,5 @@
 :root {
+  /*Font size*/
   --size-xxs: 0.5rem;
   --size-xs: 0.75rem;
   --size-sm: 0.875rem;
@@ -14,11 +15,17 @@
   --size-8xl: 6rem;
   --size-9xl: 8rem;
   --size-10xl: 10rem;
+  --size-15xl: 15rem;
+  --size-20xl: 20rem;
+  --size-30xl: 30rem;
+
+  --magenta: #c026d3;
 }
 
 * {
   margin: 0;
   line-height: calc(1em + 0.5rem);
+  border: 1px solid red;
 }
 
 html {
@@ -47,7 +54,7 @@ body::-webkit-scrollbar {
 }
 
 section {
-  width: 100svw;
+  width: 90svw;
   height: 95svh;
   margin-top: 2rem;
 }

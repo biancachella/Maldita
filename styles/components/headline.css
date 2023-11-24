@@ -1,7 +1,7 @@
 .headline {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     gap: 1rem;
     margin-top: 1rem;
@@ -9,15 +9,90 @@
   
   .malditaimg_headline {
     border-radius: 50%;
-    width: 10rem;
-    height: 10rem;
+    width: 18rem;
+    height: 18rem;
   }
   
   .malditafont_headline {
     font-family: Intradistaff;
-    font-size: var(--size-10xl);
+    font-size:8.8rem;
     font-weight: lighter;
-    color: #c026d3;
+    color: var(--magenta);
     text-align: center;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
+    border: 0;
   }
+
+
+  /*Media Queries*/
+
+/* xs */
+@media (min-width: 475px) {
+  .headline {
+    gap: 1.5rem;
+    
+  }
+  
+  .malditaimg_headline {
+    width: 20rem;
+    height: 20rem;
+  }
+  
+  .malditafont_headline {
+    font-size: 15rem;
+    letter-spacing: 10px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .headline {
+    gap: 2rem;
+    
+  }
+  
+  .malditaimg_headline {
+    width: 20rem;
+    height: 20rem;
+  }
+  
+  .malditafont_headline {
+    font-size: 20rem;
+    letter-spacing: 10px;
+  }
+  
+}
+
+/* md */
+@media (min-width: 768px) {
+  .headline {
+    gap: 2rem;
+    
+  }
+  
+  .malditaimg_headline {
+    width: 15rem;
+    height: 15rem;
+  }
+  
+  .malditafont_headline {
+    font-size: 25rem;
+    letter-spacing: 3px;
+  }
+  
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  
+}
