@@ -9,8 +9,10 @@
   
   .malditaimg_headline {
     border-radius: 50%;
-    width: 18rem;
-    height: 18rem;
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+    top: 5%;
   }
   
   .malditafont_headline {
@@ -36,6 +38,8 @@
   .malditaimg_headline {
     width: 20rem;
     height: 20rem;
+    position: relative;
+    top: 5%;
   }
   
   .malditafont_headline {
@@ -54,6 +58,8 @@
   .malditaimg_headline {
     width: 20rem;
     height: 20rem;
+    position: relative;
+    top: 15%;
   }
   
   .malditafont_headline {
@@ -71,8 +77,10 @@
   }
   
   .malditaimg_headline {
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+    top: 15%;
   }
   
   .malditafont_headline {
@@ -94,5 +102,22 @@
 
 /* 2xl */
 @media (min-width: 1536px) {
+  .headline {
+    gap: 2rem;
+    
+  }
+  
+  .malditaimg_headline {
+    width: 25rem;
+    height: 25rem;
+    position: relative;
+    top: 10%;
+    
+  }
+  
+  .malditafont_headline {
+    font-size: 25rem;
+    letter-spacing: 3px;
+  }
   
 }
