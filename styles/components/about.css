@@ -1,0 +1,60 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.malditaimg_about {
+    width: 60%;
+    height: auto;
+    top: 5%;
+}
+
+.txt_about {
+    word-wrap: break-word;
+    font-size: (--size-xxs);
+}
+
+/*Media Queries*/
+
+/* xs */
+
+@media (min-width: 475px) {
+  
+}
+
+/* sm */
+@media (min-width: 640px) {
+  
+}
+
+/* md */
+@media (min-width: 768px) {
+    .about {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .malditaimg_about {
+        width: 40%;
+    }
+  
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  
+}
