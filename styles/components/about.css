@@ -1,4 +1,5 @@
 .about {
+    height: 150dvh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -14,8 +15,16 @@
 }
 
 .txt_about {
-    word-wrap: break-word;
-    font-size: (--size-xxs);
+    font-size:  1rem;
+    line-height: 160%;
+}
+
+.txt_about::first-letter {
+    font-size: 10rem;
+    font-family: Wolfsfifth;
+    color: var(--magenta);
+    border: var(--magenta) solid 2px;
+    
 }
 
 /*Media Queries*/
@@ -34,6 +43,7 @@
 /* md */
 @media (min-width: 768px) {
     .about {
+        height: 100dvh;
         flex-direction: row;
         justify-content: space-between;
         align-items:center;

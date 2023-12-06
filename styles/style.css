@@ -46,7 +46,8 @@ html {
 
 body {
   background: #121212;
-  color: #cbd5e1
+  color: #cbd5e1;
+  font-family: 'Inter', sans-serif;
 }
 
 body::-webkit-scrollbar {
