@@ -1,5 +1,5 @@
 .about {
-    height: 150dvh;
+    height: 280dvh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -12,59 +12,77 @@
     width: 60%;
     height: auto;
     top: 5%;
+    border-radius: 5%;
 }
 
 .txt_about {
-    font-size:  1rem;
+    font-size: 1rem;
     line-height: 160%;
+    font-family: Roboto, sans-serif;
+    hyphens: manual;
+    opacity: 70%;
+}
+.txt_about p {
+    margin: 20px;
 }
 
 .txt_about::first-letter {
-    font-size: 10rem;
+    font-size: 6rem;
     font-family: Wolfsfifth;
     color: var(--magenta);
-    border: var(--magenta) solid 2px;
-    
+    border-radius: 2px;
+    padding: 50px 3px;
+    border: 2px solid var(--magenta);
+    margin: 10px 10px 10px 10px;
+    float: left;
 }
+
 
 /*Media Queries*/
 
 /* xs */
 
 @media (min-width: 475px) {
-  
+    .about {
+        height: 170dvh;
+    }
 }
 
 /* sm */
-@media (min-width: 640px) {
-  
-}
+@media (min-width: 640px) {}
 
 /* md */
 @media (min-width: 768px) {
     .about {
-        height: 100dvh;
+        height: 120dvh;
         flex-direction: row;
         justify-content: space-between;
-        align-items:center;
+        align-items: center;
     }
+
     .malditaimg_about {
         width: 40%;
     }
-  
+
 }
 
 /* lg */
 @media (min-width: 1024px) {
-  
+    .about {
+        height: 100dvh;
+    }
 }
 
 /* xl */
 @media (min-width: 1280px) {
-  
+    .about {
+        height: 80dvh;
+    }
+
+    .txt_about::first-letter {
+        
+    }
 }
 
 /* 2xl */
-@media (min-width: 1536px) {
-  
-}
+@media (min-width: 1536px) {}
