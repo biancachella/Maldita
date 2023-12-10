@@ -66,10 +66,6 @@
     .about {
         height: 80dvh;
     }
-
-    .txt_about::first-letter {
-        
-    }
 }
 
 /* 2xl */
