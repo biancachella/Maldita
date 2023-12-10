@@ -26,18 +26,6 @@
     margin: 20px;
 }
 
-.txt_about::first-letter {
-    font-size: 6rem;
-    font-family: Wolfsfifth;
-    color: var(--magenta);
-    border-radius: 2px;
-    padding: 50px 3px;
-    border: 2px solid var(--magenta);
-    margin: 10px 10px 10px 10px;
-    float: left;
-}
-
-
 /*Media Queries*/
 
 /* xs */
