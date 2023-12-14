@@ -1,3 +1,7 @@
 .powers {
     height: 150dvh;
 }
+
+svg {
+    fill: var(--magenta);
+}
