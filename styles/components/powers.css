@@ -1,7 +1,86 @@
 .powers {
-    height: 150dvh;
+    height: 200dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
-svg {
+.powers svg {
+    height: auto;
+    width: 50%;
     fill: var(--magenta);
 }
+    .card-sandPower {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    .img-sandPower {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-sandPower {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-gasPower {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .img-gasPower {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-gasPower {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-screamPower {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img-screamPower {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-screamPower {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-fatPower {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-fatPower {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-fatPower {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
