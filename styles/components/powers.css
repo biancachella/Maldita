@@ -11,76 +11,23 @@
     width: 50%;
     fill: var(--magenta);
 }
-    .card-sandPower {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    
-    }
-    
-    .img-sandPower {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .info-sandPower {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+/*CARDS*/
 
-    .card-gasPower {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    }
+.card-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .img-gasPower {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .info-gasPower {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card-screamPower {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .img-screamPower {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .info-screamPower {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card-fatPower {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .img-fatPower {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .info-fatPower {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
