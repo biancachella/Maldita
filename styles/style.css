@@ -50,10 +50,6 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-body::-webkit-scrollbar {
-  display: none;
-}
-
 section {
   width: 90svw;
   height: 95svh;
